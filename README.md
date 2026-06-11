@@ -1,10 +1,8 @@
 import numpy as np
 
 # BIOLOGICAL SIMILARITY ENGINE MASTER PIPELINE:
-# Complete Part 1 (Normalization), Part 2 (Shuffle & Split), Part 3 (One-hot encode),
-# Part 4 (Pairwise Euclidean distance & Cosine similarity matrices), and Part 5 (128-sized batch variances).
-#
-# YOUR TURN: Complete the pipeline computations:
+# Complete Part 1 (Normalization), Part 2 (Shuffle & Split), Part 3 (One-hot encode), Part 4 (Pairwise Euclidean distance & Cosine similarity matrices), and Part 5 (128-sized batch variances).
+# Complete the pipeline computations:
 np.random.seed(0)
 X = np.random.normal(0, 1, size=(1000, 30))
 y = np.random.randint(0, 4, size=1000)
